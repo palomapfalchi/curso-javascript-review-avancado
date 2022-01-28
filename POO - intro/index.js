@@ -25,3 +25,9 @@ function Person(first, last, age, gender, interests) {
   console.log(person1.interests[1]);
   console.log(person1.bio());
   console.log(person1.greeting());
+
+  var person2 = Object.create(person1);
+  console.log(person2.name);
+  console.log(person2.greeting());
+
+  
